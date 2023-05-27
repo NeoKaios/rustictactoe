@@ -28,7 +28,7 @@ impl Grid {
         println!("{}", self)
     }
 
-    pub fn set_cell_player(&mut self, player: Player, coord: Coord) {
+    pub fn set_cell_to_player(&mut self, player: Player, coord: Coord) {
         self.set_cell(CellContent::Player(player), coord)
     }
 
